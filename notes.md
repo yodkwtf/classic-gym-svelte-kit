@@ -24,7 +24,7 @@
    npm run dev
    ```
 
-5. Open your browser and navigate to `localhost:5000`
+5. Open your browser and navigate to `localhost:5175`
 
 ## Setting Up Tailwind CSS
 
@@ -93,3 +93,49 @@
 
    <slot />
    ```
+
+## Project Folder Structure
+
+The SvelteKit project structure is as follows:
+
+#### ./src
+
+- the main source folder
+- contains the routes, components, and assets
+- the entry point for the application is `./src/routes/+page.svelte`
+
+#### ./src/lib
+
+- contains the shared logic for the application
+- this is where you would put utility functions, API calls, and other shared code
+- these files are not served to the client
+- these files are not imported directly into the application
+
+#### ./src/components
+
+- contains the shared components for the application
+- these are the components that are used across multiple routes
+
+#### ./src/routes
+
+- contains the routes for the application
+- each route is a Svelte component
+- the file name is the route name
+- the entry point for the application is `./src/routes/+page.svelte`
+
+#### ./src/routes/+layout.svelte
+
+- the layout component for the application
+- wraps the content of each route
+- contains the global styles and scripts
+
+#### ./src/app.html
+
+- the main HTML file for the application
+- this is where all the content is rendered
+
+#### ./static
+
+- contains the static assets for the application
+- this is where you would put images, fonts, and other files
+- these files are served as-is

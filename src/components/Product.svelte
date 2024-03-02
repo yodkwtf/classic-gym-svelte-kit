@@ -73,5 +73,4 @@
       </ProductCard>
     {/each}
   </div>
-  <p>This is the product</p>
 </SectionWrapper>

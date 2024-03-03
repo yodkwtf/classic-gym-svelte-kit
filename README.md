@@ -1,38 +1,52 @@
-# create-svelte
+# Classic Gym - Svelte Kit Landing Page
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+This is a landing page for my gym, Classic Gym. It is built using Svelte Kit and Tailwind CSS. This was meant to be a simple project to get me started with Svelte Kit and Tailwind CSS. It has a very cool and modern design and is fully responsive. It is also SEO friendly and has a very good performance. The design is my own and I used my gym's theme colors.
 
-## Creating a project
+## Live Preview
 
-If you're seeing this, you've probably already done this step. Congrats!
+Visit the live site: [Classic Gym](https://classicgym.netlify.app)
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+![Classic Gym](./static/assets/og-image.png)
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Getting Started
 
-## Developing
+To run this project locally, follow these steps:
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+1. Clone the repository:
 
-```bash
-npm run dev
+   ```bash
+   git clone https://github.com/yodkwtf/classic-gym-svelte-kit.git
+   ```
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+2. Navigate to the project directory:
 
-## Building
+   ```bash
+   cd classic-gym-svelte-kit
+   ```
 
-To create a production version of your app:
+3. Install the dependencies:
 
-```bash
-npm run build
-```
+   ```bash
+   npm install
+   ```
 
-You can preview the production build with `npm run preview`.
+4. Start the development server:
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+   ```bash
+   npm run dev
+   ```
+
+5. Open your browser and visit [http://localhost:5173](http://localhost:5173) to view the project.
+
+## Technologies Used
+
+[Svelte Kit](https://kit.svelte.dev/) - A framework for building web applications with Svelte.<br/>
+[Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework for building custom designs.
+
+## Contributing
+
+Feel free to contribute by opening issues, submitting pull requests, or providing feedback. We welcome any suggestions for improvement.
+
+## Contact
+
+If you have any questions or want to reach out to me, you can find me on [Twitter](https://twitter.com/yodkwtf) or [LinkedIn](https://www.linkedin.com/in/durgesh-chaudhary/).

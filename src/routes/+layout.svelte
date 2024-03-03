@@ -62,9 +62,7 @@
 {/if}
 
 {#if y > outerHeight}
-  <div
-    class="bg-white fixed top-0 left-0 w-full flex flex-col z-20 px-4 fadeIn"
-  >
+  <div class="bg-white fixed top-0 left-0 w-full flex flex-col z-20 fadeIn">
     <Header />
   </div>
 {/if}

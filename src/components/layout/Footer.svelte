@@ -2,7 +2,7 @@
   import Logo from '../common/Logo.svelte';
 </script>
 
-<footer class="py-16 sm:py-20 md:py-24 px-4 md:px-8">
+<footer class="py-16 sm:py-20 md:py-24 px-4 md:px-8 bg-black text-white">
   <div
     class="max-w-[1200px] mx-auto w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-8 text-base"
   >
@@ -15,7 +15,7 @@
       <a
         href=""
         target="_blank"
-        class="cursor-pointer hover:text-indigo-400 duration-200"
+        class="cursor-pointer hover:text-yellow-400 duration-200"
       >
         Contact Us</a
       >
@@ -25,7 +25,7 @@
       <a
         href=""
         target="_blank"
-        class="cursor-pointer hover:text-indigo-400 duration-200"
+        class="cursor-pointer hover:text-yellow-400 duration-200"
       >
         Read the science</a
       >
@@ -35,7 +35,7 @@
       <a
         href=""
         target="_blank"
-        class="cursor-pointer hover:text-indigo-400 duration-200"
+        class="cursor-pointer hover:text-yellow-400 duration-200"
       >
         <i class="fa-brands fa-instagram pr-2" />
         Instagram</a
@@ -43,7 +43,7 @@
       <a
         href=""
         target="_blank"
-        class="cursor-pointer hover:text-indigo-400 duration-200"
+        class="cursor-pointer hover:text-yellow-400 duration-200"
       >
         <i class="fa-brands fa-youtube pr-2" />
         YouTube</a
@@ -51,7 +51,7 @@
       <a
         href=""
         target="_blank"
-        class="cursor-pointer hover:text-indigo-400 duration-200"
+        class="cursor-pointer hover:text-yellow-400 duration-200"
       >
         <i class="fa-brands fa-facebook pr-2" />
         Facebook</a
@@ -59,7 +59,7 @@
       <a
         href=""
         target="_blank"
-        class="cursor-pointer hover:text-indigo-400 duration-200"
+        class="cursor-pointer hover:text-yellow-400 duration-200"
       >
         <i class="fa-brands fa-twitter pr-2" />
         Twitter</a

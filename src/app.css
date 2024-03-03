@@ -24,8 +24,8 @@ span {
 
 .bgGrid {
   background-size: 40px 40px;
-  background-image: linear-gradient(to right, grey 1px, transparent 1px),
-    linear-gradient(to bottom, grey 1px, transparent 1px);
+  background-image: linear-gradient(to right, white 1px, transparent 1px),
+    linear-gradient(to bottom, white 1px, transparent 1px);
 }
 
 button,
@@ -36,12 +36,13 @@ button,
   font-size: 1rem;
   font-weight: 500;
   cursor: pointer;
-  background-color: white;
+  background-color: black;
+  color: white;
   transition: border-color 0.2s;
 }
 
 button:hover {
-  border-color: #646cff;
+  border-color: #facc15;
 }
 
 button:focus,
@@ -50,20 +51,20 @@ button:focus-visible {
 }
 
 .specialBtn {
-  border-color: #646cff;
+  border-color: #facc15;
 }
 
 .specialBtnDark {
-  background-color: #646cff;
-  color: white;
+  background-color: #facc15;
+  color: black;
 }
 
 .specialBtn:hover {
-  border-color: blue;
+  border-color: yellow;
 }
 
 .dropShadow {
-  filter: drop-shadow(-10.8923px 14.523px 35.0973px rgba(29, 140, 242, 0.2));
+  filter: drop-shadow(-10.8923px 14.523px 35.0973px rgba(255, 223, 0, 0.2));
 }
 
 .fadeIn {

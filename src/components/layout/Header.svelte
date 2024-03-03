@@ -3,9 +3,9 @@
   import Logo from '../common/Logo.svelte';
 </script>
 
-<header class="flex flex-col relative z-20">
+<header class="flex flex-col relative z-20 bg-black">
   <div
-    class="flex items-center max-w-[1400px] mx-auto w-full justify-between p-4 py-6"
+    class="flex items-center max-w-[1400px] mx-auto w-full justify-between p-4 py-6 text-white"
   >
     <a href="/">
       <Logo />
@@ -20,19 +20,19 @@
 
     <nav class="hidden md:flex items-center gap-4 lg:gap-6">
       <a
-        class="duration-20 hover:text-indigo-400 cursor-pointer"
+        class="duration-20 hover:text-yellow-400 cursor-pointer"
         href="#product">Product</a
       >
       <a
-        class="duration-20 hover:text-indigo-400 cursor-pointer"
+        class="duration-20 hover:text-yellow-400 cursor-pointer"
         href="#reviews">Reviews</a
       >
-      <a class="duration-20 hover:text-indigo-400 cursor-pointer" href="#faqs"
+      <a class="duration-20 hover:text-yellow-400 cursor-pointer" href="#faqs"
         >FAQs</a
       >
       <button class="specialBtn">
         <p>Join Now</p>
       </button>
-    </nav></div
-  >
+    </nav>
+  </div>
 </header>

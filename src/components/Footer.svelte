@@ -6,7 +6,7 @@
       <h1 class="font-semibold">
         Classic <span class="text-indigo-400">Gym</span>
       </h1>
-      <p>©2023 SWOLEY MOLEY LTD. All rights reserved.</p>
+      <p>©2023 CLASSIC GYM LTD. All rights reserved.</p>
     </div>
     <div class="flex flex-col gap-4">
       <p class="font-bold poppins text-base sm:text-lg">Support</p>

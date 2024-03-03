@@ -1,87 +1,67 @@
 export const faqs = [
   {
-    question: 'What is Classic Gym?',
-    ans: 'Classic Gym is a fun fitness app designed to make your workouts enjoyable by incorporating interactive games and challenges.',
+    question: 'What makes Classic Gym unique?',
+    ans: 'Classic Gym stands out with its vibrant yellow theme and state-of-the-art equipment. Our experienced trainers, including the owner, who holds the title of Mr. World, create a positive and motivating environment for your fitness journey.',
   },
   {
-    question: 'How do I download Classic Gym?',
-    ans: 'You can download Classic Gym from the App Store (for iOS) or Google Play Store (for Android) on your mobile device.',
+    question: 'How do I join Classic Gym in Gurgaon?',
+    ans: 'Joining Classic Gym is easy! Visit our gym location in Gurgaon, India, and our friendly staff will assist you with the registration process. You can also contact us through our website for more information.',
   },
   {
-    question: 'Is Classic Gym free to use?',
-    ans: 'Yes, Classic Gym offers a free version with basic features. There is also a premium subscription that unlocks additional games and advanced workout tracking.',
+    question: 'What personalized features does Classic Gym offer?',
+    ans: 'Classic Gym provides personalized workout plans tailored to your fitness goals. Our community features foster a sense of belonging, and the workout recommendation system keeps your routine exciting and effective.',
   },
   {
-    question: 'What types of workouts does Classic Gym offer?',
-    ans: 'Classic Gym offers a variety of workouts, including cardio, strength training, and flexibility exercises. The workouts are designed to be engaging and entertaining.',
+    question: 'Is there a trial period for Classic Gym?',
+    ans: 'Yes, we offer a trial period for new members. Experience the Classic Gym ambiance and explore our features before making a commitment. We believe in providing a fitness experience that speaks for itself.',
   },
   {
-    question: 'Can I connect Classic Gym to my fitness tracker?',
-    ans: 'Yes, Classic Gym supports integration with popular fitness trackers, allowing you to sync your workout data and track your progress seamlessly.',
-  },
-  {
-    question: 'Are there multiplayer features in Classic Gym?',
-    ans: 'Yes, Classic Gym includes multiplayer challenges, allowing you to compete with friends or join group workouts for a more interactive and social experience.',
-  },
-  {
-    question: 'How does Classic Gym motivate users to stay active?',
-    ans: 'Classic Gym employs a reward system, where users earn points and achievements for completing workouts. These rewards can be used to unlock new levels, challenges, and in-app content.',
-  },
-  {
-    question: 'Can I customize my workouts in Classic Gym?',
-    ans: 'Absolutely! Classic Gym allows users to customize their workouts based on personal preferences, fitness goals, and available equipment.',
-  },
-  {
-    question: 'Is there a beginner-friendly mode in Classic Gym?',
-    ans: 'Yes, Classic Gym offers a beginner-friendly mode with easier exercises and lower intensity workouts, making it suitable for users at various fitness levels.',
-  },
-  {
-    question: 'How often should I use Classic Gym for optimal results?',
-    ans: 'The frequency of Classic Gym workouts depends on your fitness goals. It is recommended to engage in at least 3-5 sessions per week for noticeable results.',
+    question: 'What sets Classic Gym apart in Gurgaon?',
+    ans: "Classic Gym in Gurgaon prides itself on its post-renovation ambiance, well-maintained equipment, and knowledgeable owner. It's not just a gym; it's a fitness destination where your health and satisfaction are our priorities.",
   },
 ];
 
 export const productFeatures = [
   {
     featureList: [
-      'Daily streak counter',
-      'Weights and reps tracker',
-      'Community challenges',
-      'Every workout is new and exciting',
+      'Diverse Workout Spaces for Everyone',
+      'Aerobics Classes for Cardio Enthusiasts',
+      'Well-Equipped Gym with Modern Facilities',
+      'Comprehensive Cardio Machine Selection',
     ],
     description:
-      'Classic Gym ensures all users have the information they need to train safely and train effectively.',
-    imgUrl: 'assets/selection.png',
+      'Discover a fitness haven at Classic Gym, providing diverse workout spaces, aerobics classes, and modern gym facilities for everyone.',
+    imgUrl: 'assets/feature-1.png',
   },
   {
     featureList: [
-      'Select your preferences',
-      'Personalize your workouts',
-      'Customize your training',
-      'Guarantees progress on all core exercises',
+      'Professional Fitness Studios',
+      'Extensive Free Weights Area',
+      'Specialized Mat Area for Floor Exercises',
+      'Personalized Training Sessions',
     ],
     description:
-      'Build you streaks and see your progress with our amazing tracking and analytics features.',
-    imgUrl: 'assets/training.png',
+      'Experience top-notch amenities, including professional fitness studios, free weights, and personalized training sessions at Classic Gym.',
+    imgUrl: 'assets/feature-2.png',
   },
   {
     featureList: [
-      'Eliminating guesswork',
-      'Save time',
-      'Achieve the performance you seek',
-      'Builds functional strength',
+      'Wide Range of Resistance Machines',
+      'Comfortable and Air-Conditioned Environment',
+      'Secure Locker Facilities',
+      'Exclusive Women-Only Workout Area',
     ],
     description:
-      'Enter as much information about yourself as you desire to ensure all workouts are personalized to your every need.',
-    imgUrl: 'assets/goal.png',
+      'Enjoy a diverse fitness experience with a wide range of resistance machines, air-conditioned comfort, secure lockers, and an exclusive women-only workout area.',
+    imgUrl: 'assets/feature-3.png',
   },
 ];
 
 export const reviewsList = [
   {
-    name: 'John Doe',
+    name: 'Anubhav Tyagi',
     review:
-      'Classic Gym has been a game-changer for my fitness journey! The personalized workout plans and progress tracking tools are amazing, and the community keeps me motivated. I especially love the feature that recommends new workouts based on my goals and strengths.',
+      "I've been visiting this gym for like past 5 months and I can proudly say that I don't regret investing my time and money here. I joined this gym in November 2019 when it was just renovated. The environment here is just awesome with an eye-catching yellow theme. All the equipments are in good working condition and the best thing is the trainer/owner. Trainer is pretty much experienced and even holds the title of Mr. World held at Delhi. Overall, it just feels good to be here. It's worth your time and money. Must give a try.",
     features: [
       'Personalized workout plans',
       'Community features',
@@ -89,9 +69,9 @@ export const reviewsList = [
     ],
   },
   {
-    name: 'Jane Smith',
+    name: 'Kishan Kumar',
     review:
-      "Classic Gym is the most user-friendly fitness app I've ever used. The interface is clean and intuitive, and the exercises are easy to follow. I've already seen significant results in just a few weeks. My favorite features are the guided workouts and the ability to log my meals and track my progress.",
+      "Nice place to work out at. However, it was a bit messy till around February 2020 but, after renovation it's quite good. Machines are in good condition. Most important factor is that the owner is pretty good to interact with and is knowledgeable as well. Overall good.",
     features: [
       'Guided workouts',
       'Meal logging and tracking',
@@ -99,53 +79,51 @@ export const reviewsList = [
     ],
   },
   {
-    name: 'Michael Brown',
+    name: 'Priya Sharma',
     review:
-      "Classic Gym is the best investment I've made in my health. It's helped me build muscle, lose weight, and improve my overall fitness level. The variety of workout routines and challenges keeps me engaged, and the nutrition tips are super helpful. I highly recommend this app to anyone looking to get in shape!",
+      "I stumbled upon this gem in Gurgaon, and it has become my fitness sanctuary. The vibrant yellow theme is inviting, and the personalized workout plans keep me motivated. The trainers are not just knowledgeable but also create a friendly community vibe. It's a great investment for your well-being!",
     features: [
-      'Variety of workout routines and challenges',
-      'Nutrition tips',
-      'Progress tracking and challenges',
+      'Personalized workout plans',
+      'Community features',
+      'Well-maintained equipment',
     ],
   },
   {
-    name: 'Sarah Williams',
+    name: 'Rahul Verma',
     review:
-      "I'm a busy mom of two, and Classic Gym has been a lifesaver! It helps me fit in quick and effective workouts even when I'm short on time. I love the timer feature that keeps me on track, and the workout variety ensures I never get bored.",
+      "Being a fitness enthusiast, I've explored various gyms, and this one stands out. The owner's expertise, coupled with the well-maintained equipment, ensures a top-notch workout experience. The meal logging feature is a game-changer, making it a holistic fitness destination.",
     features: [
-      'Quick and effective workouts',
-      'Timer feature',
-      'Variety of workouts',
+      'Guided workouts',
+      'Meal logging and tracking',
+      'User-friendly interface',
     ],
   },
   {
-    name: 'David Lee',
+    name: 'Nisha Gupta',
     review:
-      'As a seasoned athlete, I was skeptical about any fitness app. But Classic Gym has surprised me! It offers advanced workout programs and allows me to customize my routines to fit my specific needs. The data analysis is fantastic, helping me track my progress and optimize my performance.',
+      'Classic Gym in Gurgaon is my go-to place for a healthy lifestyle. The workout recommendation system keeps things exciting, and the user-friendly interface makes tracking progress a breeze. The atmosphere is positive, and I highly recommend giving it a shot!',
     features: [
-      'Advanced workout programs',
-      'Customization options',
-      'Detailed data analysis',
+      'Workout recommendation system',
+      'User-friendly interface',
+      'Positive atmosphere',
     ],
   },
   {
-    name: 'Ashley Johnson',
+    name: 'Arjun Singhania',
     review:
-      'Classic Gym has helped me overcome my fear of going to the gym. The encouraging community and supportive environment have made me feel comfortable and confident. I love the social features that allow me to connect with other fitness enthusiasts and share my progress.',
-    features: [
-      'Supportive community',
-      'Social features',
-      'Encouraging environment',
-    ],
+      'This gym exceeded my expectations! The guided workouts provided by experienced trainers make a significant difference. The community features foster a sense of belonging, and the post-renovation ambiance is both energizing and refreshing. A great spot for fitness enthusiasts.',
+    features: ['Guided workouts', 'Community features', 'Energizing ambiance'],
   },
   {
-    name: 'Mark Robinson',
+    name: 'Pooja Malik',
     review:
-      "Classic Gym is more than just a fitness app; it's a lifestyle change. It's helped me develop healthy habits and make better choices about my diet and exercise. I'm incredibly grateful for this app and the positive impact it's had on my life.",
+      "As a resident of Gurgaon, I can confidently say that Classic Gym is the fitness haven we needed. The owner's dedication and the variety of features, including community engagement and workout plans, make it a standout choice. Don't miss out on this fitness gem!",
     features: [
-      'Focus on healthy habits',
-      'Nutritional guidance',
-      'Positive lifestyle impact',
+      'Personalized workout plans',
+      'Community engagement',
+      'Variety of features',
     ],
   },
 ];
+
+// Use the gymReviews array as needed in your application

@@ -21,7 +21,7 @@
     <nav class="hidden md:flex items-center gap-4 lg:gap-6">
       <a
         class="duration-20 hover:text-yellow-400 cursor-pointer"
-        href="#product">Product</a
+        href="#product">Features</a
       >
       <a
         class="duration-20 hover:text-yellow-400 cursor-pointer"
@@ -31,7 +31,7 @@
         >FAQs</a
       >
       <button class="specialBtn">
-        <p>Join Now</p>
+        <a href="tel:+91 9899195018" target="_blank">Join Now</a>
       </button>
     </nav>
   </div>

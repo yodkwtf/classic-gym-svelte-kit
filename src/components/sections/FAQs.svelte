@@ -13,9 +13,9 @@
         For all your questions, qualms & queries
       </p>
       <h3
-        class="text-4xl sm:text-5xl md:text-6xl max-w-[1000px] mx-auto w-full font-semibold text-center"
+        class="text-3xl sm:text-4xl md:text-5xl max-w-[1000px] mx-auto w-full font-semibold text-center"
       >
-        Frequently Asked Questions
+        Frequently <span class="text-yellow-400">Asked</span> Questions
       </h3>
     </div>
     <div class="flex flex-col gap-8 sm:gap-10 md:gap-14 w-full">

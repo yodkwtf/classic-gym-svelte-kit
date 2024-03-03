@@ -4,14 +4,14 @@
 </script>
 
 <div
-  class="grid grid-cols-1 md:grid-cols-2 gap-14 md:gap-14 lg:gap-20 relative text-base text-white"
+  class="grid grid-cols-1 md:grid-cols-2 gap-14 md:gap-14 lg:gap-20 relative text-base text-white place"
 >
   <div
     class={'flex flex-col gap-8 md:gap-10 pt-8 sm:pt-10 ' +
       (index % 2 === 1 ? ' md:order-2' : ' ')}
   >
     <h4
-      class="text-2xl sm:text-3xl md:text-4xl max-w-[1000px] w-full font-medium relative pr-10 after:absolute after:top-full after:left-0 after:w-1/5 after:h-1.5 after:mt-1 after:bg-yellow-400"
+      class="text-xl sm:text-2xl md:text-3xl max-w-[1000px] w-full font-medium relative pr-10 after:absolute after:top-full after:left-0 after:w-1/5 after:h-1.5 after:mt-1 after:bg-yellow-400"
     >
       <slot />
     </h4>
@@ -32,21 +32,21 @@
 
     <div class="flex items-center">
       <button class="specialBtn mr-auto font-semibold">
-        <p>Try free today &rarr;</p>
+        <a href="tel:+91 9899195018" target="_blank">Try free today &rarr;</a>
       </button>
     </div>
   </div>
 
   <div class={'flex flex-col dropShadow overflow-hidden rounded-b-lg'}>
     <div
-      class="rounded-t-xl h-8 sm:h-10 bg-black opacity-60 px-3 flex items-center gap-2"
+      class="flex flex-col overflow-hidden rounded-b-lg h-[16rem] sm:h-[20rem] md:h-[24rem] lg:h-[28rem] xl:h-[32rem]"
     >
-      {#each [1, 2, 3] as i}
-        <div class="rounded-full aspect-square w-2.5 sm:w-3 bg-yellow-400" />
-      {/each}
-    </div>
-    <div class="flex flex-col bg-black gap-4 flex-1">
-      <img src={productFeature.imgUrl} alt="product-img" />
+      <img
+        src={productFeature.imgUrl}
+        class={'w-full h-full ' +
+          (index === 2 ? 'object-contain' : 'object-cover')}
+        alt="product-img"
+      />
     </div>
   </div>
 </div>

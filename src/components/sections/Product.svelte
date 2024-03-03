@@ -14,9 +14,9 @@
         Start your lifetime <span class="text-yellow-400">gym streak</span> today
       </p>
       <h3
-        class="text-4xl sm:text-5xl md:text-6xl max-w-[1000px] mx-auto w-full font-semibold text-center"
+        class="text-3xl sm:text-4xl md:text-5xl max-w-[1000px] mx-auto w-full font-semibold text-center"
       >
-        Features For <span class="text-yellow-400">Everyone</span>
+        Fitness For <span class="text-yellow-400">Everyone</span>
       </h3>
     </div>
 

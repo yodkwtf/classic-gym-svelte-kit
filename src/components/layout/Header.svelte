@@ -1,5 +1,6 @@
 <script>
-  import { openModal } from '../store';
+  import { openModal } from '../../store';
+  import Logo from '../common/Logo.svelte';
 </script>
 
 <header class="flex flex-col relative z-20">
@@ -7,9 +8,7 @@
     class="flex items-center max-w-[1400px] mx-auto w-full justify-between p-4 py-6"
   >
     <a href="/">
-      <h1 class="font-semibold"
-        >Classic <span class="text-indigo-400">Gym</span></h1
-      >
+      <Logo />
     </a>
 
     <button

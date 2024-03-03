@@ -1,8 +1,9 @@
 <script>
   import '../app.css';
-  import CTAs from '../components/CTAs.svelte';
-  import Footer from '../components/Footer.svelte';
-  import Header from '../components/Header.svelte';
+  import CTAs from '../components/common/CTAs.svelte';
+  import Footer from '../components/layout/Footer.svelte';
+  import Header from '../components/layout/Header.svelte';
+  import Logo from '../components/common/Logo.svelte';
 
   import { openModal } from '../store';
 
@@ -20,9 +21,7 @@
     class="fixed top-0 left-0 w-screen h-screen border-b bg-white z-50 flex flex-col gap-8 p-5 px-8 md:hidden"
   >
     <div class="flex items-center justify-between gap-4 border-b pb-2">
-      <h1 class="font-semibold">
-        Classic <span class="text-indigo-400">Gym</span>
-      </h1>
+      <Logo />
       <button
         on:click={() => ($openModal = false)}
         class="outline-none border-none"

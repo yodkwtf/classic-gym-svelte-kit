@@ -1,5 +1,5 @@
 <script>
-  import CtAs from './CTAs.svelte';
+  import CtAs from '../common/CTAs.svelte';
 </script>
 
 <section

@@ -1,8 +1,8 @@
 <script>
-  import CTAs from './CTAs.svelte';
-  import Header from './Header.svelte';
-  import SectionWrapper from './SectionWrapper.svelte';
-  import Stars from './Stars.svelte';
+  import CTAs from '../common/CTAs.svelte';
+  import Header from '../layout/Header.svelte';
+  import SectionWrapper from '../common/SectionWrapper.svelte';
+  import Stars from '../common/Stars.svelte';
 </script>
 
 <SectionWrapper>

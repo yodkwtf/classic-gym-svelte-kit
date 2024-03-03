@@ -4,7 +4,6 @@
   import Reviews from '../components/Reviews.svelte';
   import FAQs from '../components/FAQs.svelte';
   import Conversion from '../components/Conversion.svelte';
-  import Footer from '../components/Footer.svelte';
 </script>
 
 <main class="flex-flex-col">
@@ -13,5 +12,4 @@
   <Reviews />
   <FAQs />
   <Conversion />
-  <Footer />
 </main>
